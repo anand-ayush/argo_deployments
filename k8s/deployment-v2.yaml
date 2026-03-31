@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: node-app-v2
 spec:
-  replicas: 3   # 10% traffic initially
+  replicas: 1   # 10% traffic initially
   selector:
     matchLabels:
       app: node-app
