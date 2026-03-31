@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: aaayushanand/node-app:v2
+          image: wrong-image
           ports:
             - containerPort: 3000
           env:
